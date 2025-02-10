@@ -2,7 +2,7 @@
 x = input("What is the first number? ")
 y = input("What is the second number? ")
 
-sum_result = x + y
+sum_result = (int(x) + int(y))
 difference = (int(x) - int(y))
 product = (int(x) * int(y))
 quotient = (int(x) / int(y)) if y != 0 else "Undefined"
